@@ -3,3 +3,6 @@ function greet(name) {
 }
 
 greet('Tobias')
+
+let input = prompt("what is your name?")
+greet(input)
