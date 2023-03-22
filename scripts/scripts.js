@@ -79,22 +79,23 @@
 //     resultPara.textContent = 'Error'
 // }
 
-//Slide 15
-function populateList(shoppingList) {
-//1. Select and store a reference to the ul -> querySelector
-    const ulList = document.querySelector('.shopping')
-//2. Loop through the shoppingList => for loop
-    //for(let i=0 ; i<shoppingList.lenght ; i++)
-    for (let item of shoppingList) {
-        //console.log(item)
-//      3. create an li -> .createElement('li')
-        const newLi = document.createElement('li')
-//      4. append the li to the ul -> parent.appendChild(child)
-        ulList.appendChild(newLi)
-//      5. update the textContent of the li with array item
-        newLi.textContent = item
-    }
-}
+// //Slide 15
+// function populateList(shoppingList) {
+// //1. Select and store a reference to the ul -> querySelector
+//     const ulList = document.querySelector('.shopping')
+// //2. Loop through the shoppingList => for loop
+//     //for(let i=0 ; i<shoppingList.lenght ; i++)
+//     for (let item of shoppingList) {
+//         //console.log(item)
+// //      3. create an li -> .createElement('li')
+//         const newLi = document.createElement('li')
+// //      4. append the li to the ul -> parent.appendChild(child)
+//         ulList.appendChild(newLi)
+// //      5. update the textContent of the li with array item
+//         newLi.textContent = item
+//     }
+// }
 
-let myList = ['bread', 'cheese', 'green pepper']
-populateList(myList);
+// let myList = ['bread', 'cheese', 'green pepper']
+// populateList(myList);
+
